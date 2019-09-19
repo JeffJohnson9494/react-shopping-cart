@@ -4,31 +4,36 @@
 	width: 1000px;
 	background: white;
 	border-radius: 5px;
+}
+.item{
+	display: flex;
+	order: -2;
+	padding: 30px 0 0 30px;
+}
 
-	&__title {
-		font-size: 24px;
-		font-weight: bold;
-		text-align: center;
-		padding: 20px 0;
+	img {
+		width: 100px;
 	}
 
-	&_item {
-		display: flex;
-		order: -2;
-		padding: 30px 0 0 30px;
+	h1{
+		padding: 2px 0;
+		margin: 0 20px;}
+	p {
+		padding: 2px 0;
+		margin: 0 20px;
+	}
 
-		img {
-			width: 100px;
-		}
+	p {
+		font-weight: bold;
+	}
+	
 
-		h1,
-		p {
-			padding: 2px 0;
-			margin: 0 20px;
-		}
-
-		p {
+	
+		title {
+			font-size: 24px;
 			font-weight: bold;
+			text-align: center;
+			padding: 20px 0;
 		}
 
 		button {
@@ -41,15 +46,15 @@
 			color: lightcoral;
 			margin-left: 22px;
 
-			&:hover {
-				cursor: pointer;
-				background: lightcoral;
-				color: white;
-			}
+			
 		}
-	}
+		button:hover {
+			cursor: pointer;
+			background: lightcoral;
+			color: white;
+		}
 
-	&__checkout {
+	.checkout{
 		margin: 30px 0;
 		border-top: 1px solid lightgray;
 		padding: 20px 30px;
@@ -57,19 +62,19 @@
 		justify-content: space-between;
 		align-items: center;
 		background: #141618;
-		color: white;
+		color: white;}
 
-		button {
+		button{
 			border: 1px solid white;
 			background: transparent;
 			border-radius: 5px;
 			padding: 10px;
-			color: white;
+			color: white;}
 
-			&:hover {
+			button:hover {
 				background: black;
 				color: white;
 			}
-		}
-	}
-}
+		
+	
+
